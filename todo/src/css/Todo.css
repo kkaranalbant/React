@@ -1,0 +1,26 @@
+.todo-div-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.todo-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap : 5px ;
+}
+
+
+.todo-name {
+    border : 1px solid lightgray;
+    padding: 8px;
+}
+
+.todo-icons {
+    font-size: 20px;
+}
