@@ -1,0 +1,11 @@
+.header-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap : 30px
+}
+
+.link {
+    color: antiquewhite;
+    font-size: large;
+}

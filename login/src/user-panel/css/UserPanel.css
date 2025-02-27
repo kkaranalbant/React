@@ -1,0 +1,10 @@
+.link {
+    color : wheat;
+}
+
+.link-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
