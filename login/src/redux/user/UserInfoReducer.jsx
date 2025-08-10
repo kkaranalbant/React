@@ -22,7 +22,7 @@ export const fetchUserData = createAsyncThunk("UserInfoReducer/fetchUserData",
     }
 );
 
-export const userInfoReducer = createSlice({
+ const userInfoReducer = createSlice({
     name: "UserInfoReducer",
     initialState: initialStates,
     extraReducers: (builder) => builder

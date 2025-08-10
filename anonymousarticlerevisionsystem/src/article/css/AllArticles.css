@@ -1,0 +1,21 @@
+.article-item, .reviewer-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #e0f0ff;
+    border-color: #2196F3;
+}
+
+.error {
+    color: red;
+    padding: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

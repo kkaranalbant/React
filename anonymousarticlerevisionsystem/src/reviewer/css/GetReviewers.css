@@ -1,0 +1,28 @@
+.reviewer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.reviewer-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 120px;
+}
+
+.reviewer-item:hover {
+    background-color: #eef;
+}
+
+.reviewer-item.selected {
+    border: 2px solid #007bff;
+    background-color: #e7f0fd;
+}

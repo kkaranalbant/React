@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {fetchUserData} from "../redux/UserInfoReducer";
+import {fetchUserData} from "../redux/user/UserInfoReducer";
 import {useEffect} from 'react';
 
 function UserInfo() {

@@ -1,8 +1,8 @@
 import React from 'react';
 import './css/UserUpdate.css'
 import {useDispatch, useSelector} from "react-redux";
-import {fetchUserData} from "../redux/UserInfoReducer";
-import {updateUser} from ".//../redux/UserUpdateReducer"
+import {fetchUserData} from "../redux/user/UserInfoReducer";
+import {updateUser} from "../redux/user/UserUpdateReducer"
 import {
     updateBirthDate,
     updateEmail,
@@ -10,7 +10,7 @@ import {
     updateLastName,
     updateName, updatePassword,
     updateUsername
-} from "../redux/UserUpdateReducer";
+} from "../redux/user/UserUpdateReducer";
 import {useEffect} from "react";
 
 function UserUpdate(props) {

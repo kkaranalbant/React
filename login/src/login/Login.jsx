@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import "./Login.css";
 import {useDispatch, useSelector} from "react-redux";
-import {login, setUsername, setPassword} from "../redux/LoginPanelReducer";
+import {login, setUsername, setPassword} from "../redux/login/LoginPanelReducer";
 import {useNavigate} from "react-router-dom";
 
 function Login() {

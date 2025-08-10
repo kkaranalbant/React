@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {deleteUser, setUserMessage} from "../redux/UserDeleteReducer";
+import {deleteUser, setUserMessage} from "../redux/user/UserDeleteReducer";
 import './css/UserDelete.css'
 
 function UserDelete(props) {

@@ -1,0 +1,39 @@
+.App {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.App a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.App a:active {
+    transform: scale(0.98);
+}
+
+.App br {
+    display: none;
+}
+
+.RoutesContainer {
+    margin-top: 30px;
+    width: 80%;
+}
