@@ -12,7 +12,7 @@ A collection of **15+ React.js projects** built while learning modern frontend d
 | `doviz-kuru` | Currency exchange rates | API consumption, Real-time data |
 | `login` | Authentication flow | Forms, JWT, Protected routes |
 | `my-courses` | Course management app | Component composition |
-| `todo` | Todo application | State management, CRUD |
+| `todo` | Todo application | State management, CRUD, **UI Testing (React Testing Library/Jest)** |
 | `wordmines` | Word puzzle game (v1-v4) | Iterative development, Game logic |
 | `components` | Component patterns | Props, Composition |
 | `use-state` | useState hook examples | React Hooks |
@@ -25,6 +25,7 @@ A collection of **15+ React.js projects** built while learning modern frontend d
 - **Axios** for HTTP requests
 - **React Router** for navigation
 - **CSS Modules** for styling
+- **React Testing Library & Jest** for frontend UI tests
 
 ## 📦 Getting Started
 
