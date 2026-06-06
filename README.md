@@ -1,8 +1,8 @@
-# âš›ï¸ React Learning Projects
+# ⚛️ React Learning Projects
 
 A collection of **15+ React.js projects** built while learning modern frontend development with TypeScript.
 
-## ğŸ“š Projects
+## 📚 Projects
 
 | Project | Description | Key Concepts |
 |---------|-------------|---------------|
@@ -19,14 +19,14 @@ A collection of **15+ React.js projects** built while learning modern frontend d
 | `use-effect` | useEffect hook examples | Side effects, Lifecycle |
 | `props` | Props & data flow | Parent-child communication |
 
-## ğŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 - **React.js** with TypeScript
 - **Redux Toolkit** for state management
 - **Axios** for HTTP requests
 - **React Router** for navigation
 - **CSS Modules** for styling
 
-## ğŸ“¦ Getting Started
+## 📦 Getting Started
 
 Each project is self-contained. To run any project:
 
@@ -36,18 +36,18 @@ npm install
 npm start
 ```
 
-## ğŸ“‚ Repository Structure
+## 📂 Repository Structure
 ```
-â”œâ”€â”€ redux-toolkit/                      # Redux Toolkit demo
-â”œâ”€â”€ anonymousarticlerevisionsystem/      # Full article revision app
-â”œâ”€â”€ axios-deneme/                       # Axios API practice
-â”œâ”€â”€ doviz-kuru/                         # Currency exchange app
-â”œâ”€â”€ login/                              # Auth flow implementation
-â”œâ”€â”€ my-courses/                         # Course management
-â”œâ”€â”€ todo/                               # Classic todo app
-â”œâ”€â”€ wordmines/                          # Word game iterations
-â”œâ”€â”€ components/                         # Component patterns
-â”œâ”€â”€ use-state/                          # useState examples
-â”œâ”€â”€ use-effect/                         # useEffect examples
-â””â”€â”€ props/                              # Props examples
+├── redux-toolkit/                      # Redux Toolkit demo
+├── anonymousarticlerevisionsystem/      # Full article revision app
+├── axios-deneme/                       # Axios API practice
+├── doviz-kuru/                         # Currency exchange app
+├── login/                              # Auth flow implementation
+├── my-courses/                         # Course management
+├── todo/                               # Classic todo app
+├── wordmines/                          # Word game iterations
+├── components/                         # Component patterns
+├── use-state/                          # useState examples
+├── use-effect/                         # useEffect examples
+└── props/                              # Props examples
 ```
